@@ -1,13 +1,17 @@
 {
-  "name": "haxelib-template",
-  "url" : "https://github.com/BasicCorruption/haxelib-template",
-  "license": "",
-  "tags": ["useless"],
-  "description": "this does something",
-  "version": "1.0.0",
+  "name": "uitools",
+  "url" : "https://github.com/BasicCorruption/uitools",
+  "license": "GNU-GPLv3.0",
+  "tags": ["ui", "flixel"],
+  "description": "A library for more advanced graphics with haxeflixel",
+  "version": "0.0.1",
   "classPath": "src/",
-  "releasenote": "",
+  "releasenote": "Initial release; everything is working fine",
   "contributors": ["SidGames5"],
-  "dependencies": {},
+  "dependencies": {
+    "flixel": "4.11.0",
+    "lime": "7.9.0",
+    "openfl": "9.1.0"
+  },
   "main": "Main"
 }
